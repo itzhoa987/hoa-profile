@@ -1,0 +1,162 @@
+/* colors and fonts */
+
+body{
+	background-color: lightseagreen;
+}
+
+h1{
+	color: #4F4F4F;
+	font-size: 42px;
+	font-family: ;
+}
+
+h2{
+	color: ;
+	font-size: 28px;
+	font-family: ;
+	font-weight: ;
+	text-decoration: ;
+}
+
+p{
+	color: ;
+	font-size: 21PX;
+	font-family: ;
+	font-weight: ;
+	text-decoration: ;
+}
+
+a{
+	color: ;
+	font-size: 18px;
+	font-family: 'roboto' , sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+
+/*  custom design with class */
+
+
+.btn-blue{
+	background-color: lightseagreen;
+	color: white ;
+	padding: 15px 20px;
+	border-radius: 5px;
+	font-display: center;
+}
+
+.command-center{
+	width: 1200px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background-color: beige ;
+	margin: 30PX;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	text-align: center;
+	font-display: center;
+}
+
+.card-white-2{
+	background-color: ;
+	margin: 30PX;
+	padding: 0px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	text-align: center;
+	font-display: center;
+}
+
+.card-4{
+	background-image: url(images/image00024.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+
+.card-4 h2{
+	color: white;
+	padding: 20px;
+
+}
+
+
+.card-4 p{
+	color: white;
+	padding: 20px;
+
+}
+
+
+.list-logo{
+	list-style: none;
+	padding-left: 0px
+}
+.list-logo li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-logo i{
+	font-size: 50px;
+	color: lightseagreen;
+}
+
+.list-image{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-image li{
+	display: inline;
+	padding: 0px;
+
+}
+
+
+.custom-size{
+	width: 300px;
+	height: 200px;
+}
+
+.custom-form{
+	width: 220px;
+	height: 210px;
+	margin: 5px;
+	border-radius: 50%;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1200px) {
+  .card-white{
+    width: 700px;
+  }
+}
+@media (max-width: 950px) {
+  .card-white{
+    width: 500px;
+  }
+}
+@media (max-width: 800px) {
+  .card-white{
+    width: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card-white-2 {
+    width: 820px;
+  }
+}
+@media (max-width: 950px) {
+  .card-white-2 {
+    width: 620px;
+  }
+}
+@media (max-width: 800px) {
+  .card-white-2{
+    width: 420px;
+  }
+}
